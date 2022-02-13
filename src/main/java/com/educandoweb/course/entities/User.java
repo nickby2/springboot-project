@@ -28,7 +28,7 @@ public class User implements Serializable {
 	private String phone;
 
 	@JsonIgnore
-	@OneToMany(mappedBy = "Client")
+	@OneToMany(mappedBy = "client")
 	private List<Order> orders = new ArrayList<>();
 
 	public User() {
