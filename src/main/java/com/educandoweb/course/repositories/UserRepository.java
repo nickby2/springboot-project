@@ -1,6 +1,5 @@
 package com.educandoweb.course.repositories;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.educandoweb.course.entities.User;
