@@ -6,6 +6,4 @@ import com.educandoweb.course.entities.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Long>{
 	
-	
-
 }
