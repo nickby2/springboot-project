@@ -86,6 +86,8 @@ public class User implements Serializable {
 	public List<Order> getOrders() {
 		return orders;
 	}
+	
+	
 
 	@Override
 	public int hashCode() {
