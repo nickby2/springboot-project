@@ -23,7 +23,7 @@ public class User implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String name;
-	private String enail;
+	private String email;
 	private String password;
 	private String phone;
 
@@ -35,10 +35,10 @@ public class User implements Serializable {
 
 	}
 
-	public User(long id, String name, String enail, String password, String phone) {
+	public User(long id, String name, String email, String password, String phone) {
 		this.id = id;
 		this.name = name;
-		this.enail = enail;
+		this.email = email;
 		this.password = password;
 		this.phone = phone;
 	}
@@ -59,12 +59,12 @@ public class User implements Serializable {
 		this.name = name;
 	}
 
-	public String getEnail() {
-		return enail;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setEnail(String enail) {
-		this.enail = enail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getPassword() {
